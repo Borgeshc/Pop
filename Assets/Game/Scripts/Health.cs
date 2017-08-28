@@ -6,16 +6,19 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     public static bool isDead;
+    public static bool cantDied;
     public Text reviveTime;
     Animator anim;
 
     void Start()
     {
+        cantDied = false;
         anim = GetComponent<Animator>();
     }
 
     public IEnumerator Died()
     {
+        if (cantDied) yield break;
         isDead = true;
         Movement.canMove = false;
         anim.SetBool("Died", true);

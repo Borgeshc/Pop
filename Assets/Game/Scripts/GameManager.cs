@@ -74,6 +74,7 @@ public class GameManager : MonoBehaviour
             endScreen.SetActive(true);
             finalTime.text = gameTime.ToString() + " Seconds!";
             nextLevelButton.SetActive(true);
+            Health.cantDied = true;
         }
     }
 
