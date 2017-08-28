@@ -9,11 +9,13 @@ public class Health : MonoBehaviour
     public static bool cantDied;
     public Text reviveTime;
     Animator anim;
+    AudioSource source;
 
     void Start()
     {
         cantDied = false;
         anim = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
     }
 
     public IEnumerator Died()
@@ -39,5 +41,10 @@ public class Health : MonoBehaviour
         reviveTime.gameObject.SetActive(false);
         Movement.canMove = true;
         isDead = false;
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        source.PlayOneShot(clip);
     }
 }
