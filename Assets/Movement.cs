@@ -33,6 +33,9 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
+        if (Health.isDead)
+            rb.velocity = Vector3.zero;
+
         if (!canMove) return;
 
         horizontal = Input.GetAxis("Horizontal");
@@ -45,7 +48,7 @@ public class Movement : MonoBehaviour
             Flip();
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.transform.tag.Equals("Block"))
         {
