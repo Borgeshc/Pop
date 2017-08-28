@@ -21,14 +21,6 @@ public class Pathing : MonoBehaviour
 
     private void Update()
     {
-        if (moveTo1)
-            myPosition.localPosition = Vector2.Lerp(myPosition.localPosition, point1, speed * Time.deltaTime);
-        else
-            myPosition.localPosition = Vector2.Lerp(myPosition.localPosition, point2, speed * Time.deltaTime);
-
-        if (Vector3.Distance(myPosition.localPosition, point1) < 1)
-            moveTo1 = false;
-        if (Vector3.Distance(myPosition.localPosition, point2) < 1)
-            moveTo1 = true;
+        myPosition.localPosition = Vector3.Lerp(point1, point2, (Mathf.Sin(speed * Time.time) + 1.0f) / 2.0f);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -13,7 +14,6 @@ public class Movement : MonoBehaviour
     public AudioClip collectSound;
 
     bool lookingRight = true;
-    bool canJump;
 
     float horizontal;
     float vertical;
@@ -29,6 +29,11 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         source = GetComponent<AudioSource>();
+
+        if(Application.loadedLevel == 0)
+        {
+            canMove = true;
+        }
     }
 
     private void Update()

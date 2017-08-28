@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     [Space]
     public GameObject endScreen;
     public Text finalTime;
+    public GameObject nextLevelButton;
 
     int startingBlockCount;
     int blockCount;
@@ -68,9 +69,11 @@ public class GameManager : MonoBehaviour
         if(blockCount <= 0 && !ended)
         {
             ended = true;
+            Movement.canMove = false;
             gameTimer.gameObject.SetActive(false);
             endScreen.SetActive(true);
             finalTime.text = gameTime.ToString() + " Seconds!";
+            nextLevelButton.SetActive(true);
         }
     }
 
