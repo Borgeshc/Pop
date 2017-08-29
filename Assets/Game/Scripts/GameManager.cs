@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         ended = false;
+        Health.cantDied = false;
         startingBlockCount = blocks.Length;
         blockCount = startingBlockCount;
         StartCoroutine(StartingScreen());
