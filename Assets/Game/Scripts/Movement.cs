@@ -43,8 +43,16 @@ public class Movement : MonoBehaviour
 
         if (!canMove) return;
 
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
+        if(Application.isMobilePlatform)
+        {
+            horizontal = Input.GetAxis("Mouse X");
+            vertical = Input.GetAxis("Mouse Y");
+        }
+        else
+        {
+            horizontal = Input.GetAxis("Horizontal");
+            vertical = Input.GetAxis("Vertical");
+        }
 
         rb.velocity = (new Vector2(horizontal * speed, vertical * speed));
         anim.SetFloat("Vertical", rb.velocity.y / 100);
