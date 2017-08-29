@@ -10,13 +10,10 @@ public class Pathing : MonoBehaviour
     public Vector3 point2;
 
     RectTransform myPosition;
-    bool moveTo1;
-    float lerpSpeed;
 
     private void Start()
     {
         myPosition = GetComponent<RectTransform>();
-        moveTo1 = true;
     }
 
     private void Update()
