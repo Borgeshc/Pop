@@ -80,9 +80,9 @@ public class Movement : MonoBehaviour
                 pos.z = transform.position.z - Camera.main.transform.position.z;
                 pos = Camera.main.ScreenToWorldPoint(pos);
                 transform.position = Vector3.MoveTowards(transform.position, pos, speed * Time.deltaTime);
+                anim.SetFloat("Vertical", rb.velocity.y);
                 rb.velocity = Vector3.zero;
 
-                anim.SetFloat("Vertical", touch.position.y);
 
                 if ((touch.position.x > 0 && !lookingRight) || (touch.position.y < 0 && lookingRight))
                     Flip();

@@ -1,0 +1,100 @@
+{"frames": {
+
+"ButterflyOrb_000.png":
+{
+	"frame": {"x":2,"y":2,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_001.png":
+{
+	"frame": {"x":124,"y":2,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_002.png":
+{
+	"frame": {"x":246,"y":2,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_003.png":
+{
+	"frame": {"x":368,"y":2,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_004.png":
+{
+	"frame": {"x":2,"y":124,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_005.png":
+{
+	"frame": {"x":124,"y":124,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_006.png":
+{
+	"frame": {"x":246,"y":124,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_007.png":
+{
+	"frame": {"x":368,"y":124,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_008.png":
+{
+	"frame": {"x":2,"y":246,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_009.png":
+{
+	"frame": {"x":124,"y":246,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"ButterflyOrb_010.png":
+{
+	"frame": {"x":246,"y":246,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "_ButterflyOrb.png",
+	"format": "RGBA8888",
+	"size": {"w":490,"h":368},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:be938317e221ee47927eddaf4df7b156$"
+}
+}

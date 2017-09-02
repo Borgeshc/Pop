@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MusicManager : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class MusicManager : MonoBehaviour
     int currentSong;
     int lastSong;
     AudioSource source;
+    float oldVolume;
+    bool mute;
 
 	void Start ()
     {
@@ -18,7 +22,7 @@ public class MusicManager : MonoBehaviour
         source.clip = music[0];
         source.Play();
 	}
-	
+
 	void Update ()
     {
 		if(!source.isPlaying)
@@ -34,4 +38,22 @@ public class MusicManager : MonoBehaviour
             }
         }
 	}
+
+    public void UpdateVolume(Slider slider)
+    {
+        source.volume = slider.value;
+    }
+
+    public void Mute()
+    {
+        mute = !mute;
+
+        if(mute)
+        {
+            oldVolume = source.volume;
+            source.volume = 0;
+        }
+        else
+            source.volume = oldVolume;
+    }
 }
