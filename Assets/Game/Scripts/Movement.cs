@@ -21,6 +21,7 @@ public class Movement : MonoBehaviour
     CameraShake cameraShake;
     Animator anim;
     AudioSource source;
+    RectTransform myTransform;
 
 
     private void Start()
@@ -29,8 +30,9 @@ public class Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         source = GetComponent<AudioSource>();
+        myTransform = GetComponent<RectTransform>();
 
-        if(Application.loadedLevel == 0)
+        if (Application.loadedLevel == 0)
         {
             canMove = true;
         }
@@ -43,22 +45,45 @@ public class Movement : MonoBehaviour
 
         if (!canMove) return;
 
-        if(Application.isMobilePlatform)
+        if (Application.isMobilePlatform)
         {
-            horizontal = Input.GetAxis("Mouse X");
-            vertical = Input.GetAxis("Mouse Y");
+            MobileMove();
         }
         else
         {
-            horizontal = Input.GetAxis("Horizontal");
-            vertical = Input.GetAxis("Vertical");
+            MobileMove();
+            //PCMove();
         }
+
+    }
+
+    void PCMove()
+    {
+        horizontal = Input.GetAxis("Horizontal");
+        vertical = Input.GetAxis("Vertical");
 
         rb.velocity = (new Vector2(horizontal * speed, vertical * speed));
         anim.SetFloat("Vertical", rb.velocity.y / 100);
 
         if ((horizontal > 0 && !lookingRight) || (horizontal < 0 && lookingRight))
             Flip();
+    }
+
+    void MobileMove()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            if (touch.phase == TouchPhase.Stationary || touch.phase == TouchPhase.Moved)
+            {
+                Vector3 pos = touch.position;
+                pos.z = transform.position.z - Camera.main.transform.position.z;
+                pos = Camera.main.ScreenToWorldPoint(pos);
+                transform.position = Vector3.MoveTowards(transform.position, pos, speed * Time.deltaTime);
+                rb.velocity = Vector3.zero;
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
