@@ -51,8 +51,7 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            MobileMove();
-            //PCMove();
+            PCMove();
         }
 
     }
@@ -82,6 +81,11 @@ public class Movement : MonoBehaviour
                 pos = Camera.main.ScreenToWorldPoint(pos);
                 transform.position = Vector3.MoveTowards(transform.position, pos, speed * Time.deltaTime);
                 rb.velocity = Vector3.zero;
+
+                anim.SetFloat("Vertical", touch.position.y);
+
+                if ((touch.position.x > 0 && !lookingRight) || (touch.position.y < 0 && lookingRight))
+                    Flip();
             }
         }
     }
