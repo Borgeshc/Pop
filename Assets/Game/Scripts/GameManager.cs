@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     public GameObject[] blocks;
     public Text gameTimer;
 
+    public int oneStartTime;
+    public int twoStarTime;
+    public int threeStarTime;
+
     [Space]
     public GameObject StartScreen;
     public GameObject startText;
@@ -22,12 +26,14 @@ public class GameManager : MonoBehaviour
     int blockCount;
     int timeCompleted;
     int gameTime;
+    int timeBeforeTimer;
 
     bool startGameTime;
     bool ended;
 
     private void Start()
     {
+        gameTime = 0;
         ended = false;
         Health.cantDied = false;
         startingBlockCount = blocks.Length;
@@ -42,7 +48,7 @@ public class GameManager : MonoBehaviour
         startText.SetActive(false);
 
         startTimer.gameObject.SetActive(true);
-        StartCoroutine(StartCountdown(5));
+        StartCoroutine(StartCountdown(3));
 
     }
 
@@ -54,29 +60,61 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(1);
         }
         StartScreen.SetActive(false);
+        timeBeforeTimer = (int)Time.timeSinceLevelLoad;
         startGameTime = true;
         world.SetActive(true);
         Movement.canMove = true;
+        gameTimer.gameObject.SetActive(true);
     }
 
     private void Update()
     {
         if(startGameTime)
         {
-            gameTime = (int)Time.time;
+            gameTime = (int)Time.timeSinceLevelLoad - timeBeforeTimer;
             gameTimer.text =  gameTime.ToString();
         }
 
         if(blockCount <= 0 && !ended)
         {
             ended = true;
-            Movement.canMove = false;
-            gameTimer.gameObject.SetActive(false);
-            endScreen.SetActive(true);
-            finalTime.text = gameTime.ToString() + " Seconds!";
-            nextLevelButton.SetActive(true);
-            Health.cantDied = true;
+            GameEnded();
         }
+    }
+
+    void GameEnded()
+    {
+
+        Movement.canMove = false;
+        gameTimer.gameObject.SetActive(false);
+        endScreen.SetActive(true);
+        timeCompleted = gameTime;
+        finalTime.text = gameTime.ToString() + " Seconds!";
+        nextLevelButton.SetActive(true);
+        Health.cantDied = true;
+        CheckStars();
+    }
+
+    void CheckStars()
+    {
+        if(timeCompleted <= oneStartTime)
+        {
+            if (PlayerPrefs.GetInt(Application.loadedLevelName) < 1)
+                PlayerPrefs.SetInt(Application.loadedLevelName, 1);
+            if(timeCompleted <= twoStarTime)
+            {
+                if (PlayerPrefs.GetInt(Application.loadedLevelName) < 2)
+                    PlayerPrefs.SetInt(Application.loadedLevelName, 2);
+
+                if(timeCompleted <= threeStarTime)
+                {
+                    if (PlayerPrefs.GetInt(Application.loadedLevelName) < 3)
+                        PlayerPrefs.SetInt(Application.loadedLevelName, 3);
+                }
+            }
+        }
+        else
+            PlayerPrefs.SetInt(Application.loadedLevelName, 4);
     }
 
     public void BlockDestroyed()
