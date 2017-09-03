@@ -23,16 +23,19 @@ public class Level : MonoBehaviour
         star2 = transform.Find("Star2").GetComponent<Image>();
         star3 = transform.Find("Star3").GetComponent<Image>();
 
-        if (PlayerPrefs.GetInt(transform.name) > 0)
+        print(transform.name + " " + PlayerPrefs.GetInt(transform.name));
+
+        if (PlayerPrefs.GetInt(transform.name + "Unlocked") > 0)
         {
             unlocked.SetActive(true);
-            UpdateStars();
         }
         else
         {
             if(transform.name != "Level1")
                 locked.SetActive(true);
         }
+
+        UpdateStars();
     }
 
     void UpdateStars()

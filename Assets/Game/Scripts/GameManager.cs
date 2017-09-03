@@ -41,6 +41,13 @@ public class GameManager : MonoBehaviour
         star2 = GameObject.Find("Star2");
         star3 = GameObject.Find("Star3");
 
+        star1.SetActive(false);
+        star2.SetActive(false);
+        star3.SetActive(false);
+        nextLevelButton.SetActive(false);
+
+        PlayerPrefs.SetInt(Application.loadedLevelName + "Unlocked", 1);
+
         gameTime = 0;
         ended = false;
         Health.cantDied = false;
@@ -105,6 +112,7 @@ public class GameManager : MonoBehaviour
 
     void CheckStars()
     {
+        print("Time Completed" + timeCompleted);
         if(timeCompleted <= oneStartTime)
         {
             if (PlayerPrefs.GetInt(Application.loadedLevelName) < 1)
@@ -128,8 +136,13 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
-        else
+        else if(timeCompleted > oneStartTime)
+        {
+            print("Took too long");
             PlayerPrefs.SetInt(Application.loadedLevelName, 4);
+        }
+
+        print("Stars gained " + PlayerPrefs.GetInt(Application.loadedLevelName));
     }
 
     public void BlockDestroyed()
