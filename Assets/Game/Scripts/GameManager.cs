@@ -31,8 +31,16 @@ public class GameManager : MonoBehaviour
     bool startGameTime;
     bool ended;
 
+    GameObject star1;
+    GameObject star2;
+    GameObject star3;
+
     private void Start()
     {
+        star1 = GameObject.Find("Star1");
+        star2 = GameObject.Find("Star2");
+        star3 = GameObject.Find("Star3");
+
         gameTime = 0;
         ended = false;
         Health.cantDied = false;
@@ -101,15 +109,22 @@ public class GameManager : MonoBehaviour
         {
             if (PlayerPrefs.GetInt(Application.loadedLevelName) < 1)
                 PlayerPrefs.SetInt(Application.loadedLevelName, 1);
+
+            star1.SetActive(true);
+
             if(timeCompleted <= twoStarTime)
             {
                 if (PlayerPrefs.GetInt(Application.loadedLevelName) < 2)
                     PlayerPrefs.SetInt(Application.loadedLevelName, 2);
 
-                if(timeCompleted <= threeStarTime)
+                star2.SetActive(true);
+
+                if (timeCompleted <= threeStarTime)
                 {
                     if (PlayerPrefs.GetInt(Application.loadedLevelName) < 3)
                         PlayerPrefs.SetInt(Application.loadedLevelName, 3);
+
+                    star3.SetActive(true);
                 }
             }
         }
