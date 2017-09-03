@@ -19,7 +19,6 @@ public class Bounce : MonoBehaviour
     {
         if(collision.rigidbody.Equals(player))
         {
-            print(collision.gameObject.name);
             if(bounceLeft)
                 player.AddForce(Vector3.left * force, ForceMode2D.Impulse);
             else if (bounceRight)

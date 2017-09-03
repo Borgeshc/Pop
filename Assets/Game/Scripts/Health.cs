@@ -18,11 +18,6 @@ public class Health : MonoBehaviour
         source = GetComponent<AudioSource>();
     }
 
-    private void Update()
-    {
-        print(isDead);
-    }
-
     public IEnumerator Died()
     {
         if (cantDied) yield break;

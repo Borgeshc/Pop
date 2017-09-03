@@ -112,7 +112,6 @@ public class GameManager : MonoBehaviour
 
     void CheckStars()
     {
-        print("Time Completed" + timeCompleted);
         if(timeCompleted <= oneStartTime)
         {
             if (PlayerPrefs.GetInt(Application.loadedLevelName) < 1)
@@ -138,11 +137,9 @@ public class GameManager : MonoBehaviour
         }
         else if(timeCompleted > oneStartTime)
         {
-            print("Took too long");
             PlayerPrefs.SetInt(Application.loadedLevelName, 4);
         }
 
-        print("Stars gained " + PlayerPrefs.GetInt(Application.loadedLevelName));
     }
 
     public void BlockDestroyed()
