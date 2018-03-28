@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Advertisements;
 
 public class GameManager : MonoBehaviour
 {
@@ -100,6 +101,11 @@ public class GameManager : MonoBehaviour
 
     void GameEnded()
     {
+        if(Advertisement.IsReady())
+        {
+            print("Show Ad");
+            Advertisement.Show();
+        }
 
         Movement.canMove = false;
         gameTimer.gameObject.SetActive(false);
