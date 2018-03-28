@@ -103,7 +103,7 @@ public class GameManager : MonoBehaviour
     {
         if(Advertisement.IsReady())
         {
-            print("Show Ad");
+            if(Application.loadedLevel % 2 == 0)
             Advertisement.Show();
         }
 
