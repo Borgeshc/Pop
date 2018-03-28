@@ -29,7 +29,8 @@ public class GameManager : MonoBehaviour
     int timeBeforeTimer;
 
     bool startGameTime;
-    bool ended;
+    [HideInInspector]
+    public bool ended;
 
     GameObject star1;
     GameObject star2;

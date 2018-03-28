@@ -22,7 +22,7 @@ public class Movement : MonoBehaviour
     Animator anim;
     AudioSource source;
     RectTransform myTransform;
-
+    GameManager gameManager;
 
     private void Start()
     {
@@ -36,12 +36,15 @@ public class Movement : MonoBehaviour
         {
             canMove = true;
         }
+        else
+            gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     private void Update()
     {
-        if (Health.isDead)
-            rb.velocity = Vector3.zero;
+        if(gameManager != null)
+            if (Health.isDead || gameManager.ended)
+                rb.velocity = Vector3.zero;
 
         if (!canMove) return;
 
@@ -53,7 +56,6 @@ public class Movement : MonoBehaviour
         {
             PCMove();
         }
-
     }
 
     void PCMove()
