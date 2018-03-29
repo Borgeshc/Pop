@@ -13,6 +13,7 @@ public class Health : MonoBehaviour
 
     void Start()
     {
+        isDead = false;
         cantDied = false;
         anim = GetComponent<Animator>();
         source = GetComponent<AudioSource>();

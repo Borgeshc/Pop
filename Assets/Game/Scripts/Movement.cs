@@ -85,6 +85,9 @@ public class Movement : MonoBehaviour
                 anim.SetFloat("Vertical", rb.velocity.y);
                 rb.velocity = Vector3.zero;
 
+                Vector2 dir = touch.position - new Vector2(transform.position.x, transform.position.y);
+                float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 
                 if ((touch.position.x > 0 && !lookingRight) || (touch.position.y < 0 && lookingRight))
                     Flip();
