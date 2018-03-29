@@ -46,7 +46,10 @@ public class Movement : MonoBehaviour
     {
         if(gameManager != null)
             if (Health.isDead || gameManager.ended)
+            {
                 rb.velocity = Vector3.zero;
+                anim.SetFloat("Vertical", 0);
+            }
 
         if (!canMove) return;
 
@@ -84,10 +87,11 @@ public class Movement : MonoBehaviour
                 pos.z = transform.position.z - Camera.main.transform.position.z;
                 pos = Camera.main.ScreenToWorldPoint(pos);
                 transform.position = Vector3.MoveTowards(transform.position, pos, speed * Time.deltaTime);
-                anim.SetFloat("Vertical", velocity.y);
+
                 rb.velocity = Vector3.zero;
 
                 velocity = (pos - transform.position).normalized;
+                anim.SetFloat("Vertical", velocity.y);
 
                 if ((velocity.x > 0 && !lookingRight) || (velocity.x < 0 && lookingRight))
                     Flip();

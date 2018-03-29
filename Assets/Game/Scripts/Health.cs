@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using EZCameraShake;
 
 public class Health : MonoBehaviour
 {
@@ -23,6 +24,10 @@ public class Health : MonoBehaviour
     {
         if (cantDied) yield break;
         isDead = true;
+        CameraShaker.Instance.ShakeOnce(2f, 2f, .1f, 1f,new Vector3(1,1,0), new Vector3(0, 0, 1));
+        if (Application.isMobilePlatform)
+            Handheld.Vibrate();
+
         Movement.canMove = false;
         anim.SetBool("Died", true);
 
