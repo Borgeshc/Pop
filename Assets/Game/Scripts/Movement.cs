@@ -24,6 +24,8 @@ public class Movement : MonoBehaviour
     RectTransform myTransform;
     GameManager gameManager;
 
+    Vector2 velocity;
+
     private void Start()
     {
         canMove = false;
@@ -82,14 +84,12 @@ public class Movement : MonoBehaviour
                 pos.z = transform.position.z - Camera.main.transform.position.z;
                 pos = Camera.main.ScreenToWorldPoint(pos);
                 transform.position = Vector3.MoveTowards(transform.position, pos, speed * Time.deltaTime);
-                anim.SetFloat("Vertical", rb.velocity.y);
+                anim.SetFloat("Vertical", velocity.y);
                 rb.velocity = Vector3.zero;
 
-                Vector2 dir = touch.position - new Vector2(transform.position.x, transform.position.y);
-                float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-                transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+                velocity = (pos - transform.position).normalized;
 
-                if ((touch.position.x > 0 && !lookingRight) || (touch.position.y < 0 && lookingRight))
+                if ((velocity.x > 0 && !lookingRight) || (velocity.x < 0 && lookingRight))
                     Flip();
             }
         }
