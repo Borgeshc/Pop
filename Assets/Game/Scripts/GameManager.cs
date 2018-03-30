@@ -101,10 +101,13 @@ public class GameManager : MonoBehaviour
 
     void GameEnded()
     {
-        if(Advertisement.IsReady())
+        if(IAPManager.adsRemoved == false)
         {
-            if(Application.loadedLevel % 2 == 0)
-            Advertisement.Show();
+            if (Advertisement.IsReady())
+            {
+                if (Application.loadedLevel % 2 == 0)
+                    Advertisement.Show();
+            }
         }
 
         Movement.canMove = false;

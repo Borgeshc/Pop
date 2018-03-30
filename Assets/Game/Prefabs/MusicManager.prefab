@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 223655310416805656}
   - component: {fileID: 114376953598780442}
   - component: {fileID: 114523416681935306}
+  - component: {fileID: 114413702777132606}
   m_Layer: 5
   m_Name: In-GameMenu
   m_TagString: Untagged
@@ -1338,6 +1339,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114413702777132606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1425837470443538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83bd062cd35c4484bae9bd79fb4bd8de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114430088897191846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1715,20 +1727,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114780201701449948}
-        m_MethodName: Quit
+      - m_Target: {fileID: 114413702777132606}
+        m_MethodName: BuyRemoveAds
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1215096308615680}
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
