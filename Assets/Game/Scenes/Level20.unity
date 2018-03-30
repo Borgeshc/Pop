@@ -9016,7 +9016,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 960, y: 0.000030517578}
-  m_SizeDelta: {x: 150, y: 1080}
+  m_SizeDelta: {x: 500, y: 1080}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!61 &606918766
 BoxCollider2D:
@@ -20335,7 +20335,7 @@ Prefab:
     - target: {fileID: 114461077011551560, guid: ffc47e54785a537428ac471f0a9aa6ab,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1268651132470292, guid: ffc47e54785a537428ac471f0a9aa6ab, type: 2}
       propertyPath: m_IsActive
@@ -23327,7 +23327,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -960, y: 0}
-  m_SizeDelta: {x: 150, y: 1080}
+  m_SizeDelta: {x: 500, y: 1080}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!61 &1704070689
 BoxCollider2D:
