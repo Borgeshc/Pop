@@ -16,9 +16,9 @@ public class NextLevel : MonoBehaviour
             quit.text = "Quit";
     }
 
-    public void LoadNextLevel(int level)
+    public void LoadNextLevel()
     {
-        SceneManager.LoadScene(level);
+        SceneManager.LoadScene(Application.loadedLevel + 1);
     }
 
     public void Quit()
