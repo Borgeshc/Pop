@@ -366,6 +366,7 @@ GameObject:
   - component: {fileID: 222193353536356370}
   - component: {fileID: 114638861952703366}
   - component: {fileID: 114980323524573892}
+  - component: {fileID: 114414017294491590}
   m_Layer: 5
   m_Name: RemoveAds
   m_TagString: Untagged
@@ -1350,6 +1351,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83bd062cd35c4484bae9bd79fb4bd8de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114414017294491590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1463113293716888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998ab990626c4a941bada5ca24564364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114430088897191846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1730,6 +1742,28 @@ MonoBehaviour:
       - m_Target: {fileID: 114413702777132606}
         m_MethodName: BuyRemoveAds
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1463113293716888}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1448198416275782}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

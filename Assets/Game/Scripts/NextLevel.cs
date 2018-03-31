@@ -21,6 +21,11 @@ public class NextLevel : MonoBehaviour
         SceneManager.LoadScene(Application.loadedLevel + 1);
     }
 
+    public void LoadNextLevel(int level)
+    {
+        SceneManager.LoadScene(level);
+    }
+
     public void Quit()
     {
         if (Application.loadedLevel != 0)
