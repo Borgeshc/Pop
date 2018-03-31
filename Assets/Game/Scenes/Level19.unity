@@ -8690,9 +8690,9 @@ MonoBehaviour:
   - {fileID: 79060843}
   - {fileID: 505909632}
   gameTimer: {fileID: 1752485087}
-  oneStartTime: 80
-  twoStarTime: 70
-  threeStarTime: 60
+  oneStartTime: 50
+  twoStarTime: 40
+  threeStarTime: 30
   StartScreen: {fileID: 896926753}
   startText: {fileID: 363654031}
   startTimer: {fileID: 32354309}

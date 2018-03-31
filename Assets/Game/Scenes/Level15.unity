@@ -9727,7 +9727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &581968696
 Transform:
   m_ObjectHideFlags: 0
@@ -9961,9 +9961,9 @@ MonoBehaviour:
   - {fileID: 79060843}
   - {fileID: 505909632}
   gameTimer: {fileID: 1752485087}
-  oneStartTime: 70
-  twoStarTime: 60
-  threeStarTime: 50
+  oneStartTime: 55
+  twoStarTime: 45
+  threeStarTime: 35
   StartScreen: {fileID: 896926753}
   startText: {fileID: 363654031}
   startTimer: {fileID: 32354309}

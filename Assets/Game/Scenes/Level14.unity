@@ -9195,9 +9195,9 @@ MonoBehaviour:
   - {fileID: 1557911133}
   - {fileID: 16496149}
   gameTimer: {fileID: 1752485087}
-  oneStartTime: 85
-  twoStarTime: 75
-  threeStarTime: 65
+  oneStartTime: 65
+  twoStarTime: 55
+  threeStarTime: 45
   StartScreen: {fileID: 896926753}
   startText: {fileID: 363654031}
   startTimer: {fileID: 32354309}
