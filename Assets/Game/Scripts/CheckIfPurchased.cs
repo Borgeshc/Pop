@@ -7,19 +7,28 @@ public class CheckIfPurchased : MonoBehaviour
 {
     private void Awake()
     {
-        if (IAPManager.adsRemoved)
+        if (PlayerPrefs.GetInt("AdsRemoved") == 1)
+        {
+            IAPManager.adsRemoved = true;
             gameObject.SetActive(false);
+        }
     }
 
     private void Start()
     {
-        if (IAPManager.adsRemoved)
+        if (PlayerPrefs.GetInt("AdsRemoved") == 1)
+        {
+            IAPManager.adsRemoved = true;
             gameObject.SetActive(false);
+        }
     }
 
     private void OnEnable()
     {
-        if (IAPManager.adsRemoved)
+        if (PlayerPrefs.GetInt("AdsRemoved") == 1)
+        {
+            IAPManager.adsRemoved = true;
             gameObject.SetActive(false);
+        }
     }
 }
