@@ -101,6 +101,7 @@ public class GameManager : MonoBehaviour
 
     void GameEnded()
     {
+        print("Ads Removed = " + IAPManager.adsRemoved + " -- AdsRemoved Pref = " + PlayerPrefs.GetInt("AdsRemoved"));
         if (IAPManager.adsRemoved == false && PlayerPrefs.GetInt("AdsRemoved") == 0)
         {
             if (Advertisement.IsReady())
