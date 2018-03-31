@@ -8,7 +8,9 @@ public class IAPManager : MonoBehaviour, IStoreListener
 {
     public static IAPManager Instance { set; get; }
     private static IStoreController m_StoreController;         
-    private static IExtensionProvider m_StoreExtensionProvider; 
+    private static IExtensionProvider m_StoreExtensionProvider;
+
+    public GameObject purchaseButton;
 
     public static string PRODUCT_REMOVEADS = "removeads";
 
@@ -99,6 +101,7 @@ public class IAPManager : MonoBehaviour, IStoreListener
         if (String.Equals(args.purchasedProduct.definition.id, PRODUCT_REMOVEADS, StringComparison.Ordinal))
         {
             Debug.Log("Remove Ads");
+            purchaseButton.SetActive(false);
             adsRemoved = true;
             PlayerPrefs.SetInt("AdsRemoved", 1);
         }

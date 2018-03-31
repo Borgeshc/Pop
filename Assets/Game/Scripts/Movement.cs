@@ -6,8 +6,7 @@ using UnityEngine.SceneManagement;
 public class Movement : MonoBehaviour
 {
     public static bool canMove;
-
-    public LayerMask groundLayer;
+    
     public float speed;
     public float jumpForce;
     public float checkGroundDistance;
@@ -34,7 +33,7 @@ public class Movement : MonoBehaviour
         source = GetComponent<AudioSource>();
         myTransform = GetComponent<RectTransform>();
 
-        if (Application.loadedLevel == 0)
+        if (SceneManager.GetActiveScene().buildIndex == 0)
         {
             canMove = true;
         }
