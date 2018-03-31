@@ -10,15 +10,15 @@ public class NextLevel : MonoBehaviour
 
     private void OnEnable()
     {
-        if (Application.loadedLevel != 0 && quit != null)
+        if (SceneManager.GetActiveScene().buildIndex != 0 && quit != null)
             quit.text = "Menu";
-        else if (Application.loadedLevel == 0 && quit != null)
+        else if (SceneManager.GetActiveScene().buildIndex == 0 && quit != null)
             quit.text = "Quit";
     }
 
     public void LoadNextLevel()
     {
-        SceneManager.LoadScene(Application.loadedLevel + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void LoadNextLevel(int level)
@@ -26,9 +26,14 @@ public class NextLevel : MonoBehaviour
         SceneManager.LoadScene(level);
     }
 
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void Quit()
     {
-        if (Application.loadedLevel != 0)
+        if (SceneManager.GetActiveScene().buildIndex != 0)
             SceneManager.LoadScene(0);
         else
             Application.Quit();

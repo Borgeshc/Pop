@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Advertisements;
+using UnityEngine.Analytics;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -47,8 +49,9 @@ public class GameManager : MonoBehaviour
         star2.SetActive(false);
         star3.SetActive(false);
         nextLevelButton.SetActive(false);
+     
 
-        PlayerPrefs.SetInt(Application.loadedLevelName + "Unlocked", 1);
+        PlayerPrefs.SetInt(   SceneManager.GetActiveScene().name + "Unlocked", 1);
 
         gameTime = 0;
         ended = false;
@@ -106,7 +109,7 @@ public class GameManager : MonoBehaviour
         {
             if (Advertisement.IsReady())
             {
-                if (Application.loadedLevel % 2 == 0)
+                if (SceneManager.GetActiveScene().buildIndex % 2 == 0)
                     Advertisement.Show();
             }
         }
@@ -125,22 +128,22 @@ public class GameManager : MonoBehaviour
     {
         if(timeCompleted <= oneStartTime)
         {
-            if (PlayerPrefs.GetInt(Application.loadedLevelName) < 1)
-                PlayerPrefs.SetInt(Application.loadedLevelName, 1);
+            if (PlayerPrefs.GetInt(   SceneManager.GetActiveScene().name) < 1)
+                PlayerPrefs.SetInt(   SceneManager.GetActiveScene().name, 1);
 
             star1.SetActive(true);
 
             if(timeCompleted <= twoStarTime)
             {
-                if (PlayerPrefs.GetInt(Application.loadedLevelName) < 2)
-                    PlayerPrefs.SetInt(Application.loadedLevelName, 2);
+                if (PlayerPrefs.GetInt(   SceneManager.GetActiveScene().name) < 2)
+                    PlayerPrefs.SetInt(   SceneManager.GetActiveScene().name, 2);
 
                 star2.SetActive(true);
 
                 if (timeCompleted <= threeStarTime)
                 {
-                    if (PlayerPrefs.GetInt(Application.loadedLevelName) < 3)
-                        PlayerPrefs.SetInt(Application.loadedLevelName, 3);
+                    if (PlayerPrefs.GetInt(   SceneManager.GetActiveScene().name) < 3)
+                        PlayerPrefs.SetInt(   SceneManager.GetActiveScene().name, 3);
 
                     star3.SetActive(true);
                 }
@@ -148,7 +151,7 @@ public class GameManager : MonoBehaviour
         }
         else if(timeCompleted > oneStartTime)
         {
-            PlayerPrefs.SetInt(Application.loadedLevelName, 4);
+            PlayerPrefs.SetInt(   SceneManager.GetActiveScene().name, 4);
         }
 
     }

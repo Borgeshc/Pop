@@ -12504,12 +12504,27 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 224990645747620504, guid: 8128e71c2ca486242a66dd8ff7525076,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224580801422068386, guid: 8128e71c2ca486242a66dd8ff7525076,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224580801422068386, guid: 8128e71c2ca486242a66dd8ff7525076,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8128e71c2ca486242a66dd8ff7525076, type: 2}
   m_IsPrefabParent: 0
 --- !u!224 &786662129 stripped
 RectTransform:
-  m_PrefabParentObject: {fileID: 224562650599272488, guid: 8128e71c2ca486242a66dd8ff7525076,
+  m_PrefabParentObject: {fileID: 224580801422068386, guid: 8128e71c2ca486242a66dd8ff7525076,
     type: 2}
   m_PrefabInternal: {fileID: 786662128}
 --- !u!1 &786662130 stripped
@@ -15612,6 +15627,7 @@ GameObject:
   - component: {fileID: 990105138}
   - component: {fileID: 990105140}
   - component: {fileID: 990105139}
+  - component: {fileID: 990105141}
   m_Layer: 5
   m_Name: Level Complete!
   m_TagString: Untagged
@@ -15679,6 +15695,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 990105137}
+--- !u!114 &990105141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 990105137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b7967e5ced0d6e4cb0bf35f4f07ad85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &994479322
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,8 @@ public class ResetProgress : MonoBehaviour
             PlayerPrefs.SetInt(levels[i].name, 0);
             PlayerPrefs.SetInt(levels[i].name + "Unlocked", 0);
 
+            PlayerPrefs.SetInt("AdsRemoved", 0);
+
             print("All progress has been reset.");
         }
 	}
