@@ -12297,7 +12297,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 786662128}
 --- !u!1 &786662130 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 1434683155012602, guid: 8128e71c2ca486242a66dd8ff7525076,
+  m_PrefabParentObject: {fileID: 1226912373593398, guid: 8128e71c2ca486242a66dd8ff7525076,
     type: 2}
   m_PrefabInternal: {fileID: 786662128}
 --- !u!1 &788879677

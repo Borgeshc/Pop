@@ -3941,7 +3941,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pop!
+  m_Text: Dusk
 --- !u!222 &324881730
 CanvasRenderer:
   m_ObjectHideFlags: 0
