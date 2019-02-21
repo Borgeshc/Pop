@@ -1,0 +1,508 @@
+fileFormatVersion: 2
+guid: d2059094725c97244953e1658bc1a3fa
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: _BlueOrb_Glow_0
+    21300002: _BlueOrb_Glow_1
+    21300004: _BlueOrb_Glow_2
+    21300006: _BlueOrb_Glow_3
+    21300008: _BlueOrb_Glow_4
+    21300010: _BlueOrb_Glow_5
+    21300012: _BlueOrb_Glow_6
+    21300014: _BlueOrb_Glow_7
+    21300016: _BlueOrb_Glow_8
+    21300018: _BlueOrb_Glow_9
+    21300020: _BlueOrb_Glow_10
+    21300022: _BlueOrb_Glow_11
+    21300024: _BlueOrb_Glow_12
+    21300026: _BlueOrb_Glow_13
+    21300028: _BlueOrb_Glow_14
+    21300030: _BlueOrb_Glow_15
+    21300032: _BlueOrb_Glow_16
+    21300034: _BlueOrb_Glow_17
+    21300036: _BlueOrb_Glow_18
+    21300038: _BlueOrb_Glow_19
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 608
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8b67e8f0988e840a977be4dd5fab57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 608
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fc73b167ce3e8439b1d3b620787a9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 608
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1d5baa2929e6b47b48c2cd42e85f13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_3
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 608
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c5e6c920302ab4bb4eea7478607fea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_4
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 608
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc9d70d849f82e4d9b964625a0ed094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 406
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e6505dbd9eaae4da7b081489ca0b8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 406
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d89765e964fe4b459b943806c27e890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 406
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3eaf134f2db0d44aa4de9713e2ee8cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 406
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478cd44da8562d343bf045f0f2e2e1b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_9
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 406
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4f49dbc8dcf144688c86d74d432453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e82be8301d20804eb9f14cecef80d11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 204
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5581790ea0fa9454c8fa3e9af870221d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 204
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faeed560a403cb04783a53a3a1dc0471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_13
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 204
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d938ee70687ab0c4890a15c2eef65d2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_14
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 204
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba74d56be9ba9ef45938894e8bef404f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da1ed21635f1ef4086beb23a0124ba2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0f513111a3efa46b6538dbb2ab4397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc70eff33fb50846b32235a4048e7e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 2
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc5bc7aeaad53f4bb65759821029f36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _BlueOrb_Glow_19
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2
+        width: 200
+        height: 200
+      alignment: 4
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bb1cd9d20a45f4fa55ac48f542f96f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

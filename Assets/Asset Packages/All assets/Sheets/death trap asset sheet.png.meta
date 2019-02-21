@@ -1,9 +1,47 @@
 fileFormatVersion: 2
 guid: 8cdd847ab4f914d4cb3d23e9eb98958d
-timeCreated: 18446744011573954816
 TextureImporter:
-  fileIDToRecycleName: {}
-  serializedVersion: 4
+  fileIDToRecycleName:
+    21300000: Swing01
+    21300002: RopeSmall
+    21300004: RopeMedium
+    21300006: RopeLarge
+    21300008: SkullDecoBlack
+    21300010: SkullDecoRed
+    21300012: WoodenSwingBase
+    21300014: CannonWheelFront
+    21300016: CannonWheelBack
+    21300018: CannonRoot
+    21300020: CannonBarrel
+    21300022: CannonBalls
+    21300024: SkullLarge
+    21300026: Swing01Bloody
+    21300028: Spikes
+    21300030: WoodenSpikes01
+    21300032: WoodenSpikes02
+    21300034: WoodenSpikes03
+    21300036: WoodenSpikes04
+    21300038: CannonBall
+    21300040: SawBase
+    21300042: ChainLink
+    21300044: Chain01
+    21300046: Chain02
+    21300048: Chain03
+    21300050: Chain04
+    21300052: FloorTile01
+    21300054: FloorTilleBlackSkull
+    21300056: FloorTilleRedSkull
+    21300058: FloorTileSquare
+    21300060: MetalicSwingRoot
+    21300062: MaceRed
+    21300064: MaceBlack
+    21300066: Swing02Bloody
+    21300068: Swing02
+    21300070: WoodenConector
+    21300072: SawBloody
+    21300074: SawClean
+  externalObjects: {}
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -21,6 +59,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -31,7 +71,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -43,25 +83,30 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -79,6 +124,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c98cba5e71275d04ba8bc28803180e6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: RopeSmall
       rect:
@@ -93,6 +144,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: eddfcc3667fbe2d4282904555f2f2eb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: RopeMedium
       rect:
@@ -107,6 +164,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e3fe02662da8bdb458a3571a1138ffc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: RopeLarge
       rect:
@@ -121,6 +184,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 4f78adf176cf61f498424dfcdeb0537c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SkullDecoBlack
       rect:
@@ -135,6 +204,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a980bf0dff6928a428ebd0e05d021e79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SkullDecoRed
       rect:
@@ -149,6 +224,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 81f5a6faca8b7164f80088a829837ab6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: WoodenSwingBase
       rect:
@@ -163,6 +244,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bc04495162199844da56817b620fdfaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CannonWheelFront
       rect:
@@ -177,6 +264,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5db1b555a53e68e4aba502281acdcb3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CannonWheelBack
       rect:
@@ -191,6 +284,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7df5e9532ebaeed468c82cfeb06ee7f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CannonRoot
       rect:
@@ -205,6 +304,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5e23ef0b5faa50e429c7ba53d6c82c89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CannonBarrel
       rect:
@@ -219,6 +324,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 07b63d42c48d3ae4c8d3f2844f7294eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CannonBalls
       rect:
@@ -233,6 +344,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1e066eefc59c3814dbd4d69026f61f13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SkullLarge
       rect:
@@ -247,6 +364,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6aca46ed2743343428ebedb5997d06c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Swing01Bloody
       rect:
@@ -261,6 +384,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 213cf9ede10320642bfb08b6a942fc0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Spikes
       rect:
@@ -275,6 +404,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2cd2e0a2df9a6f444b1219dc4c311a0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: WoodenSpikes01
       rect:
@@ -289,6 +424,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 81f0a282dd8d2724da09c8613267eb6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: WoodenSpikes02
       rect:
@@ -303,6 +444,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9d3793c32bb100a40addec128eeb88be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: WoodenSpikes03
       rect:
@@ -317,6 +464,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: db4ff7bcfb2261c429411095e2001e83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: WoodenSpikes04
       rect:
@@ -331,6 +484,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6e85427ef808e664f93537ebc51edb2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: CannonBall
       rect:
@@ -345,6 +504,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1e5e21fe483b7fb4f833130e541b5bfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SawBase
       rect:
@@ -359,6 +524,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9a28107707dac674a9fb48e00ae286b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: ChainLink
       rect:
@@ -373,6 +544,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: bae9411d652159b4a9fb68cd55436b74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Chain01
       rect:
@@ -387,6 +564,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7f08d481af1d9104f9d95feeacd1265f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Chain02
       rect:
@@ -401,6 +584,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 12f46c3e01c57a947a09c3bc5f1666c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Chain03
       rect:
@@ -415,6 +604,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2adb7707fe2629e40af36635524a9249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Chain04
       rect:
@@ -429,6 +624,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1d715db6643f77f4dafd36e2a8b42690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FloorTile01
       rect:
@@ -443,6 +644,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9b30ffae50f8ebe46bd310de74b20e42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FloorTilleBlackSkull
       rect:
@@ -457,6 +664,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: cacebb90185a12540b4e200cdd19a1da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FloorTilleRedSkull
       rect:
@@ -471,6 +684,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: d8dfeda587515164da1c43a3265c4e00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: FloorTileSquare
       rect:
@@ -485,6 +704,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f77822ac6c3ac714fbf3dc5b41ed44a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MetalicSwingRoot
       rect:
@@ -499,6 +724,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: fc1055c2bda70a343a24b78202392fff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MaceRed
       rect:
@@ -513,6 +744,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6da61879082346d47aeefb39630490c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: MaceBlack
       rect:
@@ -527,6 +764,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 08037088a34e68a489938fbcd723063a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Swing02Bloody
       rect:
@@ -541,6 +784,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 89ccf7ab9f6c4aa4fad272e435296bcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Swing02
       rect:
@@ -555,6 +804,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0034bed1478b1d940a83842f11f93e39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: WoodenConector
       rect:
@@ -569,6 +824,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b3d362e8f0d41da439d4566f3e0ac36f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SawBloody
       rect:
@@ -583,6 +844,12 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6c06d63787f564844a68a4e9690124a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: SawClean
       rect:
@@ -597,9 +864,23 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8734bfefcb7ad6d4dbd364c81e1d2dde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

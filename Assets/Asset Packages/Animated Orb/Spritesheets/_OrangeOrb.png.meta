@@ -1,0 +1,508 @@
+fileFormatVersion: 2
+guid: f8f00454e73fa934ab5c0d8fb179e425
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: _OrangeOrb_0
+    21300002: _OrangeOrb_1
+    21300004: _OrangeOrb_2
+    21300006: _OrangeOrb_3
+    21300008: _OrangeOrb_4
+    21300010: _OrangeOrb_5
+    21300012: _OrangeOrb_6
+    21300014: _OrangeOrb_7
+    21300016: _OrangeOrb_8
+    21300018: _OrangeOrb_9
+    21300020: _OrangeOrb_10
+    21300022: _OrangeOrb_11
+    21300024: _OrangeOrb_12
+    21300026: _OrangeOrb_13
+    21300028: _OrangeOrb_14
+    21300030: _OrangeOrb_15
+    21300032: _OrangeOrb_16
+    21300034: _OrangeOrb_17
+    21300036: _OrangeOrb_18
+    21300038: _OrangeOrb_19
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: _OrangeOrb_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 608
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5677784b2adbf1a4e995bc56af876278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 608
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd539a651937d04e8a8eb33561082e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 608
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f748c4a2993c29946866439aef94588a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_3
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 608
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f892aaeb9df9fc4eb9e41ba256281fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_4
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 608
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84492c26ba2783c4980d3828082144f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 406
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ee9a32205c3524a8df7243ac9ca8f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 406
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ab3bedbf8d2d445be501fab7d56a0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 406
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8d0cd4d783fdf44a4894aa1a64937a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 406
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f8adef3f2a5ed44b4019538956d2bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_9
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 406
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc641d3f4427554ca355219b0e42cd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 204
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7514971b10c4de845902a0a0fa08525e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 204
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb174ea6851ddb45afdcb6897f117d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 204
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a59240f1ae8c6b449ed95665f725887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_13
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 204
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5512ba597d7fd05499b0cbb9dac00129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_14
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 204
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246b1864d59b5224eab5aaa2f1a28289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb8116437191194c94430c36dd2f6cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42aeda5c3fbb8dc4e86fe092c5d5e1f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d1be67ab94ef64d9b3b99de0cc53c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 2
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4d4060714cf48498d988d100d01bb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: _OrangeOrb_19
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2
+        width: 200
+        height: 200
+      alignment: 2
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcae6135f090a6458165ab5af75ed05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
